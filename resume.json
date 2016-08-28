@@ -8,7 +8,9 @@
         "前端开发工程师"
     ],
     "contact": {
-        "email": "zhextime@163.com"
+		"phone":"15567663691",
+        "email": "zhextime@163.com",
+		"qq":"827901453"
     },
     "links": [
         {
@@ -22,7 +24,7 @@
     ],
     "education": [
         {
-            "type": "major",
+            "type": "master",
             "name": "延边大学",
             "major": "计算机技术",
             "start": "2014",
