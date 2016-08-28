@@ -31,14 +31,14 @@ mixin section(sec_class, timeline)
           block
 
 
-mixin certificate(certificate)
-  dl.language-certificates
-    each cert in certificate
-      .language-cert-wrapper
-        dt.language-cert-type= cert.type
-        dd.progress.language-cert-score
-          .progress-bar(style="width: " + Math.floor(cert.score / cert.full * 100) + "%;")
-            span.progress-label= cert.score
+//mixin certificate(certificate)
+ // dl.language-certificates
+   // each cert in certificate
+     // .language-cert-wrapper
+       // dt.language-cert-type= cert.type
+        //dd.progress.language-cert-score
+         // .progress-bar(style="width: " + Math.floor(cert.score / cert.full * 100) + "%;")
+           // span.progress-label= cert.score
 
 
 mixin skills_basic(item)
